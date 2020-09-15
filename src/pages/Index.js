@@ -1,10 +1,10 @@
 import React from 'react';
-import ArticleList from '../components/ArticleList';
-import { useArticleList } from '../data/useArticleList';
+import AppointmentList from '../components/AppointmentList';
+import { useAppointmentList } from '../data/useAppointmentList';
 import ShowError from '../components/ShowError';
 
 const HomePage = () => {
-  const articles = useArticleList();
+  const articles = useAppointmentList();
 
   return (
     <>
@@ -21,7 +21,7 @@ const HomePage = () => {
           ? 'Cargando...'
           : articles.isError
           ? <ShowError error={ articles.isError } />
-          : <ArticleList articles={ articles.articles } />
+          : <AppointmentList articles={ articles.articles } />
       }
     </>
   );

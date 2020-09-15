@@ -106,8 +106,8 @@ const MainLayout = props => {
                  } }
                  className='logo-menta'>
               Elaborado por: <br />
-              <a href='https://grupomenta.com' rel='noopener noreferrer' target='_blank'>
-                <img src={ logo } alt='Profe a Tiempo' height={ 50 } />
+              <a href='https://www.epn.edu.ec' rel='noopener noreferrer' target='_blank'>
+
               </a>
             </Col>
 
@@ -121,12 +121,9 @@ const MainLayout = props => {
                  } }
                  className='contact-links'>
               <p><strong>Contáctanos</strong></p>
-              <p><MailOutlined /> <a href='mailto:chalo.salvador@grupomenta.com'>chalo.salvador@grupomenta.com</a></p>
-              <p><WhatsAppOutlined /> <a href='https://wa.me/593984794808' target='_blank' rel='noopener noreferrer'>+593
-                9-8479-4808</a></p>
-              <p><GithubOutlined /> <a href='https://github.com/chalosalvador'
-                                       target='_blank'
-                                       rel='noopener noreferrer'>@chalosalvador</a>
+              <p><MailOutlined /> <a href=''>citasmedicas.com</a></p>
+
+              <p><GithubOutlined /> <a>Doctor Pro</a>
               </p>
             </Col>
           </Row>
